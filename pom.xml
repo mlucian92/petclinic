@@ -44,8 +44,8 @@
     </build>
 
     <scm>
-        <connection>scm:git:https://gitlab.com/mlucian92/petclinic.git/.git</connection>
-        <developerConnection>scm:git:git@gitlab.com:mlucian92/petclinic.git/.git</developerConnection>
+        <connection>scm:git:https://gitlab.com/mlucian92/petclinic.git</connection>
+        <developerConnection>scm:git:git@gitlab.com:mlucian92/petclinic.git</developerConnection>
         <url>https://gitlab.com/mlucian92/petclinic</url>
       <tag>petclinic-0.0.1</tag>
     </scm>
