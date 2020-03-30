@@ -25,6 +25,7 @@
 
     <properties>
         <java.version>11</java.version>
+        <project.scm.id>https://gitlab.com/mlucian92/petclinic.git</project.scm.id>
     </properties>
 
     <build>
@@ -44,7 +45,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:git@gitlab.com:mlucian92/petclinic.git</developerConnection>
+        <developerConnection>scm:git:https://mlucian92@gitlab.com/mlucian92/petclinic.git</developerConnection>
       <tag>petclinic-0.0.1</tag>
   </scm>
 
