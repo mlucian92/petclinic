@@ -9,7 +9,7 @@
 
     <artifactId>pet-clinic-web</artifactId>
     <groupId>guru.springframework</groupId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
 
     <dependencies>
         <dependency>
