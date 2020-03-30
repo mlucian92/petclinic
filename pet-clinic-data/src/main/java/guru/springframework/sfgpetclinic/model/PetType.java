@@ -1,4 +1,4 @@
-package guru.springframework.petclinic.model;
+package guru.springframework.sfgpetclinic.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,8 +9,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Person {
+public class PetType {
 
-    private String firstName;
-    private String lastName;
+    private String name;
 }
