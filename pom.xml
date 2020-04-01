@@ -4,7 +4,7 @@
 
     <groupId>guru.springframework</groupId>
     <artifactId>petclinic</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.4-SNAPSHOT</version>
 
     <modules>
         <module>pet-clinic-data</module>
@@ -45,7 +45,6 @@
 
     <scm>
         <developerConnection>scm:git:mlucian92@gitlab.com:mlucian92/petclinic.git</developerConnection>
-      <tag>petclinic-0.0.1</tag>
   </scm>
 
 </project>
