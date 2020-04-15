@@ -6,15 +6,18 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
-import java.util.Set;
+import java.time.LocalDate;
 
 @Data
 @SuperBuilder
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = true)
-public class Owner extends Person {
+public class Visit extends BaseEntity{
 
-    private Set<Pet> pets;
+    private LocalDate date;
 
+    private String description;
+
+    private Pet pet;
 }
