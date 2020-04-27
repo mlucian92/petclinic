@@ -2,6 +2,7 @@ package guru.springframework.sfgpetclinic.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
@@ -16,6 +17,7 @@ import java.util.Set;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "pets")
+@EqualsAndHashCode(exclude="owner", callSuper = false)
 public class Pet extends BaseEntity{
 
     @ManyToOne
