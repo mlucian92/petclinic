@@ -32,6 +32,11 @@ public class OwnerSDJpaService implements OwnerService {
     }
 
     @Override
+    public Owner findCity(String city) {
+        return this.findCity(city);
+    }
+
+    @Override
     public Set<Owner> findAll() {
         Set<Owner> owners = new HashSet<>();
         ownerRepository.findAll().forEach(owners::add);
