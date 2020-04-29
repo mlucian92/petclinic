@@ -16,14 +16,13 @@ import java.util.Set;
 public class OwnerSDJpaService implements OwnerService {
 
     private final OwnerRepository ownerRepository;
-    private final PetRepository petRepository;
     private final PetTypeRepository petTypeRepository;
+    private final PetRepository petRepository;
 
-    public OwnerSDJpaService(OwnerRepository ownerRepository, PetRepository petRepository,
-                             PetTypeRepository petTypeRepository) {
+    public OwnerSDJpaService(OwnerRepository ownerRepository, PetTypeRepository petTypeRepository, PetRepository petRepository) {
         this.ownerRepository = ownerRepository;
-        this.petRepository = petRepository;
         this.petTypeRepository = petTypeRepository;
+        this.petRepository = petRepository;
     }
 
     @Override
@@ -33,7 +32,7 @@ public class OwnerSDJpaService implements OwnerService {
 
     @Override
     public Owner findCity(String city) {
-        return this.findCity(city);
+        return ownerRepository.findCity(city);
     }
 
     @Override
