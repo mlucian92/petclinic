@@ -48,6 +48,7 @@
     </dependencies>
 
     <properties>
+        <maven.compiler.release>11</maven.compiler.release>
         <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
     </properties>
 

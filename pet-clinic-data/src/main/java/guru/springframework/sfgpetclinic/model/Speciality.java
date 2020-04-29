@@ -2,6 +2,7 @@ package guru.springframework.sfgpetclinic.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
@@ -14,9 +15,10 @@ import javax.persistence.Table;
 @SuperBuilder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "types")
-public class PetType extends BaseEntity{
+@Table(name = "specialties")
+@EqualsAndHashCode(callSuper = true)
+public class Speciality extends BaseEntity {
 
-    @Column(name = "name")
-    private String name;
+    @Column(name = "description")
+    private String description;
 }
